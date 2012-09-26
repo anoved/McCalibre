@@ -1,0 +1,29 @@
+html {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+
+	/* column-width seems to be treated as a suggestion; actual width
+	is varied to fit an even number of columns within screen width. */
+	-webkit-column-width: 20em;
+	-webkit-column-count: auto;
+	-webkit-column-gap: 1.5em;
+
+	line-height: 1.5em;
+}
+
+/* This is a fudge fix to prevent the children of the body tag from
+defining margins that overlap the body height, which causes small
+but annoying amounts of vertical scroll. Uses a wildcard because
+I don't necessarily know how any particular page is structured. */ 
+body > * {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
