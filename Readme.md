@@ -5,5 +5,7 @@ McCalibre.css is a multi-column stylesheet for the [Calibre](http://calibre-eboo
 
 It is intended to be used with the viewer's "flow" mode, where the text is not split up into pages.
 
+[![McCalibre screenshot](McCalibreScreenshotSmall.png)](https://raw.githubusercontent.com/anoved/McCalibre/master/McCalibreScreenshot.png)
+
 The text is presented as a series of relatively narrow columns. The columns are only as tall as the window. You scroll horizontally to view more columns. The vertical position of lines of text does not shift up or down as you scroll. Some people don't like this layout. I do. We can still be friends.
 
